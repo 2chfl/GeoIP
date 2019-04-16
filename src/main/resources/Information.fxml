@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="370.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.alexander.geoip.controller.InformationController">
+   <children>
+      <Label alignment="CENTER" layoutX="10.0" layoutY="10.0" prefWidth="480.0" text="Информация об IP адресе" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textFieldIPAddress" editable="false" focusTraversable="false" layoutX="150.0" layoutY="50.0" prefWidth="200.0" />
+      <Line endX="485.0" endY="90.0" startX="15.0" startY="90.0" />
+      <Label layoutX="15.0" layoutY="110.0" text="Страна:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textFieldCountry" editable="false" focusTraversable="false" layoutX="150.0" layoutY="108.0" prefWidth="280.0" />
+      <Label layoutX="15.0" layoutY="150.0" text="Регион:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textFieldRegion" editable="false" focusTraversable="false" layoutX="150.0" layoutY="148.0" prefWidth="280.0" />
+      <Label layoutX="15.0" layoutY="190.0" text="Город:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textFieldCity" editable="false" focusTraversable="false" layoutX="150.0" layoutY="188.0" prefWidth="280.0" />
+      <Line endX="485.0" endY="230.0" startX="15.0" startY="230.0" />
+      <Label layoutX="15.0" layoutY="250.0" text="Имя сети:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textFieldNetwork" editable="false" focusTraversable="false" layoutX="150.0" layoutY="248.0" prefWidth="280.0" />
+      <Label layoutX="15.0" layoutY="290.0" text="Владелец сети:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textFieldOwner" editable="false" focusTraversable="false" layoutX="150.0" layoutY="288.0" prefWidth="280.0" />
+      <Label layoutX="14.0" layoutY="330.0" text="Другое:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textFieldOther" editable="false" focusTraversable="false" layoutX="150.0" layoutY="328.0" prefWidth="280.0" />
+   </children>
+</Pane>
